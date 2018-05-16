@@ -1,3 +1,7 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 header {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -10,9 +14,14 @@ h1 {
   grid-column: 1/span 2;
   margin-left: 1rem;
   color: pink;
+  font-size: 4vw;
+  text-shadow: #333 .15vw .15vw .15vw;
 }
 
 nav {
+  display: flex;
+  width: 33vw;
+  justify-content: space-around;
   grid-column: 5/ span 2;
 }
 
@@ -20,4 +29,8 @@ nav a {
   text-decoration: underline;
   color: darkblue;
   font-size: 15px;
+}
+
+a {
+  text-decoration: none;
 }
